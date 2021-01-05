@@ -1,0 +1,54 @@
+// main: ../style.less
+
+.footer{
+    padding: 1.35rem 0;
+    background: @black;
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+    align-items: center;
+
+    @media @mobile-sm{
+        margin: 0 1rem;
+    }
+}
+
+.footer__item{
+    display: flex;
+}
+
+.footer__text{
+    color: @gray;
+    margin-right: .9rem;
+}
+
+.footer__img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 1rem;
+}
+
+
+.footer__social{
+    display: flex;
+    fill: @white;
+}
+
+.footer__img{
+    fill: @white;
+}
+
+
+@media @tablet{
+    .nav--footer{
+        display: none;
+    }
+
+    .footer__item:first-child{
+        width:100%;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,58 @@
+// main: ../style.less
+
+.model__content{
+    padding: 5rem 1rem;
+}
+
+.model__title{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: @black;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.resume__btn{
+    text-align: center;
+}
+
+.resume__inner{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.resume__side{
+    padding: 0 2rem;
+    text-align: right;
+    width: 50%;
+
+    @media @mobile-sm{
+        padding: 0;
+        padding-right: 1rem;
+    }
+
+
+    &:first-child{
+        border-right: 2px solid @gray;
+    }
+
+    &--left{
+        // width: 100%;
+        text-align: left;
+        padding-left: 1rem;
+        // padding-right: 0;
+
+        // padding: 0 2rem;
+    }
+}
+
+.resume__title{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,103 @@
+// main: ../style.less
+
+
+.about{
+    margin: 8.4rem 0;
+
+    @media @mobile-sm{
+        margin: 0;
+    }
+}
+
+.about__inner{
+    display: flex;
+    max-width: 1090px;
+}
+
+.about__item{
+    width: 50%;
+
+    &:last-child{
+
+        padding-left: 1.2rem;
+    }
+
+    @media @tablet{
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        &:first-child{
+            display: none;
+            
+        }
+
+        &:last-child{
+
+            padding-left: 0;
+        }
+        
+    }
+}
+
+.about__img{
+    position: relative;
+
+    img{
+        position:relative;
+        z-index: 2;
+    }
+    &:before{
+        content: '';
+        width: 413px;
+        height: 413px;
+        background-color: #efefef;
+        position: absolute;
+        left: 1rem;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    @media @tablet{
+        display: none;
+    }
+
+}
+
+.about__info{
+    margin: 2rem 0;
+}
+
+
+.about__title{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: @black;
+
+
+}
+
+.about__subtitle{
+    position: relative;
+    left: -10px;
+    font-size: 6rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+    color: fade(@black, 15%);
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+
+    @media @mobile-sm{
+        font-size: 4rem;
+    }
+}
+
+.about__text{
+    font-size: .8rem;
+    line-height: 2;
+    font-weight: 300;
+
+    color: @gray;
+    margin-bottom: 2rem;;
+
+}

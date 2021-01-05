@@ -1,0 +1,53 @@
+// main: ../style.less
+
+.contact{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.contact__left{
+    width: 47%;
+    padding: 2rem;
+    @media @mobile{
+        width: 100%;
+    }
+
+}
+
+.contact__right{
+    width: 53%;
+    background: @black url(https://placehold.it/480x700) center no-repeat;
+
+    @media @mobile{
+        display: none;
+    }
+}
+
+.model__subtitle{
+    margin-bottom: 2rem;
+}
+
+.contact__info{
+    font-size: 0.94rem;
+    color: @black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.contact__info__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.contact__icon{
+    height: 1rem;
+    width: auto;
+    margin-right: .5rem;
+}

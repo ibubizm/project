@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="user">
+                    <div class="user__avatar">
+                        <img class="user__img" src="https://dummyimage.com/57x57/333/aaa" alt="">
+                    </div>
+                    <div class="user__content">
+                        <div class="user__name">ernest ibubizm</div>
+                        <div class="user__prof">king</div>
+                    </div>
+                </div>
+                <nav class="nav" id="nav">
+                    <a href="#" class="nav__link" data-scroll="work">work</a>
+                    <a href="#" class="nav__link" data-scroll="about">about me</a>
+                    <a href="#" class="nav__link" data-scroll="blog">blog</a>
+                    <a href="#" class="nav__link">contact</a>
+                    <a href="#" class="nav__link nav__link--btn" data-model="#hire_me">hire me</a>
+                </nav>
+
+                <button class="burger" type="button" id="nav__toggle">
+                    <img class="burger_icon" src="images/list.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+
+            <div class="intro__inner">
+                <div class="intro__content">
+                    <h2 class="intro__subtitle">hello i'm</h2>
+                    <h1 class="title">Lewis Nathaniel</h1>
+                    <div class="prof">Ux Designer</div>
+
+                    <div class="social">
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/behance.svg" alt="">
+                        </a>
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/instagram.svg" alt="">
+                        </a>
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/twitter-sign.svg" alt="">
+                        </a>
+                        <a href="#" class="social__link">
+                            <img class="social__img" src="images/facebook.svg" alt="">
+                        </a>
+                        
+                    </div>
+                    <div class="btns">
+                        <a href="" class="btn" data-model="#hire_me">hire me</a>
+                        <a href="" class="btn" data-model="#resume">see my resume</a>
+                    </div>
+
+                </div>
+                <div class="intro__photo">
+                    <!-- <img class="fon" src="images/symbols.png" alt=""> -->
+                    <img class="man" src="images/photo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="works" id="work">
+        <div class="container">
+            <div class="works__nav">
+                <a href="#" class="works__nav__link" data-filter="all">all</a>
+                <a href="#" class="works__nav__link" data-filter="app">app</a>
+                <a href="#" class="works__nav__link" data-filter="websites">websites</a>
+                <a href="#" class="works__nav__link"  data-filter="interaction">interaction</a>
+            </div>
+
+            <div class="portfilio" >
+                <div class="portfolio__col" data-cat="app" data-model="#project_1">
+                    <div class="portfolio__item">
+                        <img class="portfolio__img" src="images/unnamed.jpg" alt="">
+                        <div class="portfolio__item__content">
+                            <div class="category">app</div>
+                            <div class="category__title">
+                                <div class="tit">project title</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__col" data-cat="interaction" data-model="#project_2">
+                    <div class="portfolio__item">
+                        <img class="portfolio__img" src="images/unnamed.jpg" alt="">
+                        <div class="portfolio__item__content">
+                            <div class="category">inter</div>
+                            <div class="category__title">
+                                <div class="tit">project title</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__col" data-cat="interaction">
+                    <div class="portfolio__item">
+                        <img class="portfolio__img" src="images/unnamed.jpg" alt="">
+                        <div class="portfolio__item__content">
+                            <div class="category">inter</div>
+                            <div class="category__title">
+                                <div class="tit">project title</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__col" data-cat="app">
+                    <div class="portfolio__item">
+                        <img class="portfolio__img" src="images/unnamed.jpg" alt="">
+                        <div class="portfolio__item__content">
+                            <div class="category">app</div>
+                            <div class="category__title">
+                                <div class="tit">project title</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__col"  data-cat="app">
+                    <div class="portfolio__item">
+                        <img class="portfolio__img" src="images/unnamed.jpg" alt="">
+                        <div class="portfolio__item__content">
+                            <div class="category">app</div>
+                            <div class="category__title">
+                                <div class="tit">project title</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio__col" data-cat="websites">
+                    <div class="portfolio__item">
+                        <img class="portfolio__img" src="images/unnamed.jpg" alt="">
+                        <div class="portfolio__item__content">
+                            <div class="category">web</div>
+                            <div class="category__title">
+                                <div class="tit">project title</div>
+                                <div class="year">2020</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="portfolio__btn">
+                <a href="#" class="btn btn--sm">load more work</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__item">
+                    <div class="about__img">
+                        <img src="images/designer_photo.png" alt="">
+                    </div>
+                </div>
+                <div class="about__item">
+                    <div class="about__info">
+                        <h2 class="about__title">about me</h2>
+                        <h1 class="about__subtitle"> who am i</h1>
+                        <div class="about__text">Студия надеется, что вы дадите Cyberpunk 2077 шанс исправиться, однако, если вы не хотите ждать обновлений на консолях, CD Projekt RED рекомендует оформить возврат средств через PlayStation Network, Xbox Live или в своём розничном магазине.
+
+                            Если по каким-то причинам у вас не получается это сделать, CD Projekt RED открыла своеобразную горячую линию — HelpMeRefund@CDProjektRED.com. По этому адресу компания постарается помочь вам с рефандом. Письма можно слать до 21 декабря — видимо, после этого CDPR уйдёт на новогодние праздники.
+                            
+                            Письмо подписали боссы компании: сооснователь Марчин Ивиньский (Marcin Iwinski), президент Адам Кичиньский (Adam Kiciński), руководитель Cyberpunk 2077 Адам Бадовский (Adam Badowski), вице-президент по развитию бизнеса Михал Новаковский (Michał Nowakowski), финансовый директор Пётр Нелюбович (Piotr Nielubowicz) и член совета директоров Пётр Карвовский (Piotr Karwowski).</div>
+                            <div class="btns">
+                                <a href="" class="btn" data-model="#hire_me">hire me</a>
+                                <a href="" class="btn" data-model="#resume">see my resume</a>
+                            </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="reviews">
+        <div class="container">
+            <div class="reviews__item">
+                <div class="reviews__text">
+                    
+                    CD Projekt RED опубликовала обращение к публике в социальных сетях. Компания принесла извинения за ужасное состояние Cyberpunk 2077 на базовых PlayStation 4 и Xbox One, а также обозначила дальнейший план действий.
+                </div>
+                <div class="reviews__author">
+                    <img class="reviews__photo" src="images/100x100.png" alt="">
+                    <div class="reviews__name">Edvard M brooks</div>
+                    <div class="reviews__company">google</div>
+                    <div class="reviews__raiting"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="news" id="blog">
+        <div class="container">
+            <div class="news__header">
+                <div class="news__title">read me</div>
+                <div class="news__text">Sometimes i write something smart</div>
+            </div>
+            <div class="articles">
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date">10 <br>June</time>
+                            <a href="#">
+                                <img class="article__img" src="images/370x360-3.jpg" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+                            
+                            <h4 class="articles__title"><a href="#">ten the best app in 2020</a></h4>
+                            
+                            <div class="articles__cat">categoty</div>
+                            <div class="articles__text">CD PROJEKT RED ИЗВИНИЛАСЬ ЗА ВЕРСИИ CYBERPUNK 2077 ДЛЯ PS4 И XBOX ONE. ПЕРВЫЙ БОЛЬШОЙ ПАТЧ ВЫЙДЕТ В ЯНВАРЕ</div>
+                        </div>
+                        <div class="articles__btn">
+                            <a href="#" class="btn btn--sm">read more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date">10 <br>June</time>
+                            <a href="#">
+                                <img class="article__img" src="images/370x360-3.jpg" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+                            
+                            <h4 class="articles__title"><a href="#">ten the best app in 2020</a></h4>
+                            
+                            <div class="articles__cat">categoty</div>
+                            <div class="articles__text">CD PROJEKT RED ИЗВИНИЛАСЬ ЗА ВЕРСИИ CYBERPUNK 2077 ДЛЯ PS4 И XBOX ONE. ПЕРВЫЙ БОЛЬШОЙ ПАТЧ ВЫЙДЕТ В ЯНВАРЕ</div>
+                        </div>
+                        <div class="articles__btn">
+                            <a href="#" class="btn btn--sm">read more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="articles__col">
+                    <div class="articles__item">
+                        <div class="articles__header">
+                            <time class="articles__date">10 <br>June</time>
+                            <a href="#">
+                                <img class="article__img" src="images/370x360-3.jpg" alt="" class="articles__photo">
+                            </a>
+                        </div>
+                        <div class="articles__content">
+                            
+                            <h4 class="articles__title"><a href="#">ten the best app in 2020</a></h4>
+                            
+                            <div class="articles__cat">categoty</div>
+                            <div class="articles__text">CD PROJEKT RED ИЗВИНИЛАСЬ ЗА ВЕРСИИ CYBERPUNK 2077 ДЛЯ PS4 И XBOX ONE. ПЕРВЫЙ БОЛЬШОЙ ПАТЧ ВЫЙДЕТ В ЯНВАРЕ</div>
+                        </div>
+                        <div class="articles__btn">
+                            <a href="#" class="btn btn--sm">read more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="news__footer">
+                <a class="news__link" href="#">See more posts</a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer__inner">
+                <div class="footer__item">
+                    <div class="footer__text">&copy;2020 U131 - Free template</div>
+                    <div class="footer__social">
+                        <a href="#">
+                            <img class="footer__img" src="images/facebook-gray.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer__img" src="images/behance-logo.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer__img" src="images/instagram-gray.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img class="footer__img" src="images/twitter-gray.svg" alt="">
+                        </a>
+                    </div>
+                </div>  
+                
+                <div class="footer__item">
+                    <div class="nav nav--footer">
+                        <a href="#" class="nav__link nav__link--footer" data-scroll="work">work</a>
+                        <a href="#" class="nav__link nav__link--footer" data-scroll="about">about me</a>
+                        <a href="#" class="nav__link nav__link--footer" data-scroll="blog">blog</a>
+                        <a href="#" class="nav__link nav__link--footer" data-model="#project_1">contact</a>
+                        <a href="#" class="nav__link nav__link--btn nav__link--btn__footer " data-model="#hire_me">hire me</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+
+    <!-- MOdels -->
+
+    <div class="model" id="project_1">
+        <div class="model__dialog">
+
+            <button class="model__close" type="button">
+                <img src="images/close.svg" alt="">
+            </button>
+
+            <div class="model-work">
+                <div class="model-work__preview">
+                    <div data-slider="slick">
+                        <div>
+                            <img class="mode-work__photo" src="https://dummyimage.com/790x780/333/aaa">
+                        </div>
+                        <div>
+                            <img class="mode-work__photo" src="https://dummyimage.com/790x780/bbb/aaa">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="model-work__content">
+                    <div class="model-work__header">
+                        <h3 class="model-work__title">
+                            Project title
+                        </h3>
+                        <div class="model-work__info">
+                            category <span class="model-work__info-divider">|</span> 2020
+                        </div>
+                    </div>
+
+                    <div class="model-work__client">
+                        <div class="model-work__client-title">Client:</div>
+                        <div class="model-work__client-company">Creative Agency</div>
+                    </div>
+
+                    <div class="model-work__text">
+                        Я нарисовал лицо, которое показалось мне нежным. Ко мне пришла знакомая журналистка из женской прессы и сказала: «Это жутко кожаное лицо». Я подумал: «Иисус Христос, я хочу нарисовать нежное лицо, а люди ассоциируют его с апокалипсисом» [из интервью 2005 года]
+                    </div>
+                    <div class="model-work__footer">
+                        <button class="prev slickPrev">previous</button>
+                        <button class="next slickNext">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="model" id="project_2">
+        <div class="model__dialog">
+
+            <button class="model__close" type="button">
+                <img src="images/close.svg" alt="">
+            </button>
+
+            <div class="model-work">
+                <div class="model-work__preview">
+                    <div data-slider="slick">
+                        <div>
+                            <img class="mode-work__photo" src="https://dummyimage.com/790x780/333/aaa">
+                        </div>
+                        <div>
+                            <img class="mode-work__photo" src="https://dummyimage.com/790x780/bbb/aaa">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="model-work__content">
+                    <div class="model-work__header">
+                        <h3 class="model-work__title">
+                            Project title 2
+                        </h3>
+                        <div class="model-work__info">
+                            category <span class="model-work__info-divider">|</span> 2020
+                        </div>
+                    </div>
+
+                    <div class="model-work__client">
+                        <div class="model-work__client-title">Client:</div>
+                        <div class="model-work__client-company">Creative Agency</div>
+                    </div>
+
+                    <div class="model-work__text">
+                        Я нарисовал лицо, которое показалось мне нежным. Ко мне пришла знакомая журналистка из женской прессы и сказала: «Это жутко кожаное лицо». Я подумал: «Иисус Христос, я хочу нарисовать нежное лицо, а люди ассоциируют его с апокалипсисом» [из интервью 2005 года]
+                    </div>
+                    <div class="model-work__footer">
+                        <button class="prev slickPrev">previous</button>
+                        <button class="next slickNext">next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="model" id="resume">
+        <div class="model__dialog">
+
+            <button class="model__close" type="button">
+                <img src="images/close.svg" alt="">
+            </button>
+            <div class="model__content">
+                <h3 class="model__title text-center">resume</h3>
+                <div class="resume__btn">
+                    <button class="btn btn--thin">Download PDF</button>
+                    <button class="btn btn--thin">Print</button>
+
+                </div>
+
+                <div class="resume__inner">
+                    <div class="resume__side">
+                        <div class="resume__title">expirience</div>
+                        <div class="timeline">
+                            <div class="time">2017-Present</div>
+                            <div class="professionn">Freelancer</div>
+                            <div class="prof__name">Art Director</div>
+                            <div class="timeline__text">
+                                Возможно, многое надумано человеком. Так, например, присутствие влияния Бексиньского на игру Tormentum
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="time">2017-2016</div>
+                            <div class="professionn">The Better Agency</div>
+                            <div class="prof__name">Art Director</div>
+                            <div class="timeline__text">
+                                Возможно, многое надумано человеком. Так, например, присутствие влияния Бексиньского на игру Tormentum
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="time">2014-2016</div>
+                            <div class="professionn">Good Agency</div>
+                            <div class="prof__name">Senior</div>
+                            <div class="timeline__text">
+                                Возможно, многое надумано человеком. Так, например, присутствие влияния Бексиньского на игру Tormentum
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="time">2012-2014</div>
+                            <div class="professionn">Normal Agency</div>
+                            <div class="prof__name">UX/UI</div>
+                            <div class="timeline__text">
+                                Возможно, многое надумано человеком. Так, например, присутствие влияния Бексиньского на игру Tormentum
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__side resume__side--left">
+                        <div class="resume__title">education</div>
+
+                        <div class="timeline">
+                            <div class="time">2005-2010</div>
+                            <div class="professionn">UI/UX</div>
+                            <div class="prof__name">MIT</div>
+                            
+                        </div>
+                        <div class="timeline">
+                            <div class="time">2002-2005</div>
+                            <div class="professionn">Somthing shit</div>
+                            <div class="prof__name">In Minsk</div>
+                            
+                        </div>
+
+                        <div class="resume__title">skills</div>
+
+                        <div class="resume__skills">
+                            <div class="skills__item">
+                                <div class="skill__name">UI/UX</div>
+                                <div class="skills__progress">
+                                    <div class="progress__item">
+                                        <div class="ps" style="width: 40%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skill__name">Photoshop</div>
+                                <div class="skills__progress">
+                                    <div class="progress__item">
+                                        <div class="ps" style="width: 60%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skill__name">Sketch</div>
+                                <div class="skills__progress">
+                                    <div class="progress__item">
+                                        <div class="ps" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills__item">
+                                <div class="skill__name">Paint</div>
+                                <div class="skills__progress">
+                                    <div class="progress__item">
+                                        <div class="ps" style="width: 45%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="resume__title">awards</div>
+
+                            <div class="timeline">
+                                <div class="time">2016</div>
+                                <div class="professionn">The Best App Interface</div>
+                                <div class="prof__name">UX/Ui</div>
+                                <div class="timeline__text">
+                                    Возможно, многое надумано человеком. Так, например, присутствие влияния Бексиньского на игру Tormentum
+                                </div>
+                            </div>
+
+                            <div class="timeline">
+                                <div class="time">2016</div>
+                                <div class="professionn">The Best Website</div>
+                                <div class="prof__name">Art Director</div>
+                                <div class="timeline__text">
+                                    Возможно, многое надумано человеком. Так, например, присутствие влияния Бексиньского на игру Tormentum
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hireme">
+
+                <button class="btn btn--resume">hire me</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="model" id="hire_me">
+        <div class="model__dialog model__dialog--sm">
+
+            <button class="model__close" type="button">
+                <img src="images/close.svg" alt="">
+            </button>
+                
+                <div class="contact">
+                    <div class="contact__left">
+                        <div class="model__title mb-0">Let's talk!</div>
+                        <div class="model__subtitle">Call me or send me a request</div>
+                        <ul class="contact__info">
+                            <li class="contact__info__item">
+                                <img class="contact__icon" src="images/phone-call.svg" alt="">
+                                <span>(200) 100 3000</span>
+                            </li>
+                            <li class="contact__info__item">
+                                <img class="contact__icon" src="images/mail.svg" alt="">
+                                <span>designer@ul.com</span> 
+                            </li>
+                        </ul>
+
+                        <form action="/" method="POST">
+                            <div class="form__group">
+                                <label for="input-email" class="label">adress e-maill</label>
+                                <input type="text" id="input-email" class="input" placeholder="Adress e-mail">
+                            </div>
+                            <div class="form__group">
+                                <label for="input-text" class="label">Request</label>
+                                <textarea type="text" id="input-text" class="text-area" placeholder="Type your request..."></textarea>
+                            </div>
+                        </form>
+                        <div class="btn__right">
+                            <button class="btn btn--right">send</button>
+                        </div>
+
+                    </div>
+                    <div class="contact__right">
+
+                    </div>
+                </div>
+
+            
+        </div>
+    </div>
+
+    <script src="slick.min.js"></script>
+    <script src="js.js"></script>
+    
+    
+</body>
+</html>

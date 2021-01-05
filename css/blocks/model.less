@@ -1,0 +1,66 @@
+// main: ../style.less
+
+.model{
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+    overflow: scroll;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    background-color: rgba(5, 15, 49, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    // transition: transform .2s linear;
+    &__show{
+        display: block;
+    }
+}
+
+
+
+.model__dialog{
+    position: relative;
+    width: 100%;
+    // height: 100%;
+    max-width: 1200px;
+    font-weight: 300;
+    margin: auto;
+    background-color: #fff;
+
+    transform: rotateX(90deg);
+    transition: transform .2s linear;
+
+    &--sm{
+        max-width: 900px;
+    }
+}
+
+.model__close{
+    position: absolute;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    outline: none;
+    background: none;
+    z-index: 1;
+    top: .9rem;
+    right: .9rem;
+    cursor: pointer;
+    transition: transform .2s linear;
+
+    &:hover{
+        transform: rotate(-90deg);
+    }
+
+}
+
+.model__subtitle{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: @black;
+    font-weight: 400;
+}

@@ -1,0 +1,67 @@
+// compress: true
+
+@import 'vars';
+
+html{
+    font-size: 15px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: @black;
+
+    &.no-scroll{
+        overflow: hidden;
+    }
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+@import 'vender/slick';
+
+@import 'blocks/burger';
+
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/user';
+@import 'blocks/nav';
+@import 'blocks/intro';
+@import 'blocks/social';
+@import 'blocks/btns';
+@import 'blocks/works';
+@import 'blocks/portfolio';
+@import 'blocks/about';
+@import 'blocks/reviews';
+@import 'blocks/news.less';
+@import 'blocks/articles.less';
+@import 'blocks/footer';
+
+@import 'blocks/model';
+@import 'blocks/model-work';
+
+@import 'blocks/resume';
+@import 'blocks/resume__timeline';
+@import 'blocks/contact';
+@import 'blocks/label';
+@import 'blocks/input';
+
+@import 'blocks/helper';

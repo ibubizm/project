@@ -1,0 +1,89 @@
+// main: ../style.less
+
+
+// .btn{
+
+// }
+
+.btn{
+    display: inline-block;
+    color: @black;
+    min-width: 170px;
+    font-weight: 300;
+    font-family: inherit;
+    border: 1px solid @black;
+    border-radius: 1.8em;
+    font-size: 1.06rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1.05em 1.7em;
+    transition: all .3s linear;
+    outline: none;
+    cursor: pointer;
+
+    @media @tablet{
+        // margin-left: 0;
+        margin-bottom: 1rem;
+    }
+
+    
+
+    &:hover{
+        color: @white;
+        background: @black;
+        box-shadow: 2px 2px 10px fade(@black, 24%);
+    }
+
+    + .btn{
+        margin-left: 1rem;
+
+        @media @mobile{
+            margin-left: 0;
+            margin-bottom: .3rem;
+        }
+    }
+
+    &--sm{
+        margin-top: .5rem;
+        font-size: 0.94rem;
+        font-weight: 700;
+        padding: .8rem 1rem;
+        text-align: center;
+
+    }
+
+    &--thin{
+        font-family: inherit;
+        min-width: 145px;
+        font-size: .8rem;
+    }
+
+    &--resume{
+        display: block;
+        margin: 0 auto;
+    }
+
+    @media @tablet{
+        font-size: 1rem;
+        padding: .7rem .7rem;
+        margin-right: 1rem;
+
+    }
+
+    @media @mobile-sm{
+        padding: .4rem;
+        margin: 0 0 .5rem 0;
+    }
+
+
+}
+
+
+.btn__right{
+    text-align: right;
+
+    @media @tablet{
+        text-align: center;
+    }
+}

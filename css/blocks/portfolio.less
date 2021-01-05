@@ -1,0 +1,62 @@
+// main: ../style.less
+
+.portfilio{
+    margin: 0 -1rem 2.8rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.portfolio__item{
+    box-shadow: 0 0 4px fade(@black, 25%);
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:hover{
+        box-shadow: 0 0 25px fade(@black, 25%);
+    }
+}
+
+.portfolio__col{
+    flex-basis: 33.333333%;
+    padding: 1rem;
+
+    @media @tablet{
+        flex-basis: 50%;
+    }
+
+    @media @mobile-sm{
+        flex-basis: 100%;
+    }
+}
+
+.portfolio__img{
+    display: block;
+
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio__item__content{
+    padding: 1rem .8rem;
+}
+
+.category{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: @gray;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.category__title{
+    display: flex;
+    font-size: 1.06rem;
+    justify-content: space-between;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.portfolio__btn{
+    text-align: center;
+}

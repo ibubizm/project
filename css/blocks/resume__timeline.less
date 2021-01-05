@@ -1,0 +1,70 @@
+// main: ../style.less
+
+.timeline{
+    margin-bottom: 2rem;
+}
+
+.time{
+    text-decoration: underline;
+    margin-bottom: .6rem;
+}
+
+.professionn{
+    font-size: 1.06rem;
+    font-weight: 700;
+    color: @black;
+    margin-bottom: .3rem;
+}
+
+.prof__name{
+    font-size: 1rem;
+    font-style: italic;
+    color: @gray;
+    margin-bottom: .2rem;
+
+   
+
+}
+
+.resume__skills{
+    // display: flex;
+    margin-bottom: 2rem;
+    
+}
+
+.skills__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: .3rem;
+
+    @media @mobile{
+        display: block;
+    }
+}
+
+.skills__progress{
+    padding-left: 1.2rem;
+
+    @media @mobile{
+        padding: 0;
+    }
+}
+
+.progress__item{
+    width: 139px;
+    height: 4px;
+    background-color: @gray;
+}
+
+.ps{
+    height: 100%;
+    transition: width .2s linear;
+    background-color: @black;
+}
+
+
+.skill__name{
+    @media @mobile{
+        margin-bottom: .5rem;
+    }
+}

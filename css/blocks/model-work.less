@@ -1,0 +1,167 @@
+// main: ../style.less
+
+.model-work{
+    display: flex;
+    margin-top: 5rem;
+
+    @media @mobile{
+        margin-top: 1rem;
+        display: grid;
+    }
+}
+
+.model-work__preview{
+    width: 65%;
+    position: relative;
+    overflow: hidden;
+
+    @media @mobile{
+        width: 100%;
+        height: 450px;
+    }
+
+    @media @mobile-sm{
+        width: 100%;
+        height: 220px;
+    }
+
+}
+
+.mode-work__photo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.model-work__content{
+    width: 35%;
+    padding: 3.4rem 6.6rem 1rem 1.73rem;
+    position: relative;
+
+    @media @mobile{
+        width: 100%;
+        padding: 0 .5rem;
+    }
+}
+
+.model-work__header{
+    margin-bottom: 2.2rem;
+}
+
+.model-work__title{
+    font-size: 2.13rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .2rem;
+}
+
+.model-work__info{
+    font-size: 1.2rem;
+    color: @gray;
+    text-transform: uppercase;
+    
+}
+
+.model-work__info-divider{
+    margin: 0 1rem;
+}
+
+.model-work__client{
+    margin-bottom: 2.2rem;
+
+    @media @mobile-sm{
+        margin-top: 1.2rem;
+    }
+}
+
+.model-work__client-title{
+    font-size: 1.06rem;
+    color: @black;
+    font-weight: 700;
+    margin-bottom: .2rem;
+}
+
+.model-work__client-company{
+    font-size: 0.94rem;
+    font-style: italic;
+    color: @gray;
+}
+
+.model-work__text{
+    margin-bottom: 8.66rem;
+    font-size: 0.8rem;
+    color: @gray;
+    line-height: 2;
+}
+
+.model-work__footer{
+    position: absolute;
+    font-family: inherit;
+    width: 100%;
+    padding: 0 1.8rem 1rem;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    border: none;
+    color: @black;
+}
+
+.prev{
+    position: relative;
+    font-family: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    outline: none;
+    border: none;
+    color: @black;
+    background: transparent;
+    
+    &:before{
+        content: '';
+        position: absolute;
+        left: -10px;
+        transform: rotate(-45deg);
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid @black;
+        border-bottom: none;
+        border-right: none;
+
+        
+    }
+}
+
+.next{
+    position: relative;
+    font-family: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    outline: none;
+    border: none;
+    color: @black;
+    background: transparent;
+
+    &:after{
+        content: '';
+        position: absolute;
+        right: -10px;
+        transform: rotate(135deg);
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid @black;
+        border-bottom: none;
+        border-right: none;
+
+    }
+}
+

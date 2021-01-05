@@ -1,0 +1,28 @@
+// main: ../style.less
+
+.works{
+    margin: 2.8rem;
+
+    @media @mobile-sm{
+        margin: 1rem 0;
+    }
+}
+
+.works__nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.4rem;
+}
+
+.works__nav__link{
+    margin: 0 1.2rem;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: fade(@black, 70%);
+    transition: all .2s linear;
+
+    &:hover{
+        text-decoration: underline;;
+    }
+}
